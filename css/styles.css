@@ -1,0 +1,138 @@
+:root
+{
+    --primary-color:#382AE1;
+    --secondary-color:#F8F9FE;
+    --tertiary-color:#766CF1;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+        background: url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;   
+}
+
+.card
+{   
+    
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 40px;
+    box-shadow: 0 0 10px 2px #D6E1FF;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#hero
+{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.main-desc
+{
+    padding:0 30px;
+    color: gray;
+    font-size: 0.9em;
+}
+
+.annual-plan
+{
+    padding:10px 0;
+    margin: 20px 20px 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    border-radius: 7px;
+    background-color: var(--secondary-color);
+}
+#music-icon
+{
+        box-sizing: border-box;
+padding-left: 20px;
+padding-top: 6px;
+padding-bottom: 6px;
+        width: 60px;
+}
+.annual-plan a{
+    text-align: right;
+    padding-right: 10px;
+    color: var(--primary-color);
+}
+
+.annual-plan a:hover
+{
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
+
+.para-container
+{
+    display:flex;
+    flex-direction: column;
+}
+#p-plan
+{
+    text-align: left;
+    margin-left: 12px;
+}
+#desc
+{
+    text-align: left;
+    margin-left: 12px;
+    color: gray;
+}
+button
+{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    padding:10px 0;
+    border-radius: 7px;
+
+
+}
+.button-container
+{
+    margin: 0 20px;
+padding: 10px 0;
+}
+#payment
+{
+    background-color: #382AE1;
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px 2px #829fee;
+
+
+}
+#payment:hover
+{
+    background-color: var(--tertiary-color);
+}
+#cancel-order
+{
+    background: none;
+    font-weight: bold;
+    color: gray;
+    border:none;
+
+}
+
+#cancel-order:hover{
+    color: black;
+}
+
